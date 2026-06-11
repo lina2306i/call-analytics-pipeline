@@ -322,9 +322,10 @@ MIT License — voir [LICENSE](LICENSE)
 
 ---
 
-## Auteur
+## 👩‍💻 Auteur
 
-**[Lina Labiadh]**
+**Lina Labiadh** — *Ingénieure Data & AI*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0077b5?logo=linkedin)](https://linkedin.com/in/linalabiadh)
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:lina.hkl2306@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0077b5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/linalabiadh/)
+[![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lina.hkl2306@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lina.hkl2306@gmail.com)
