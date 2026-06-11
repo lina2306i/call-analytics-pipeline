@@ -2,6 +2,7 @@
 
 > Pipeline de reconnaissance vocale automatique (ASR) pour l'analyse d'appels de centres d'appels.
 > De l'audio brut aux rapports structurés avec métriques ASR, NLP et conformité.
+
 > End-to-end pipeline: raw audio → transcription → diarization → NLP → compliance → reports.
 
 
@@ -10,7 +11,28 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-CUDA-ee4c2c?logo=pytorch&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-ff4b4b?logo=streamlit&logoColor=white)
 ![WER](https://img.shields.io/badge/WER-7.8%25-brightgreen)
+![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange)
+![spaCy](https://img.shields.io/badge/spaCy-v3.7-09A3D5?logo=spacy&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-12.1-76B900?logo=nvidia&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+![Capture d'écran du Dashboard](assets/dashboard_preview.png)
+
+---
+<p align="center">
+  <img src="assets/dashboard_preview.png" alt="Call Analytics Dashboard Preview" width="800">
+</p>
+
+---
+## 📈 Évolution du projet (Stargazers over time)
+
+Si vous aimez ce projet, n'hésitez pas à laisser une 🌟 ! L'évolution des étoiles montre l'intérêt de la communauté pour ce pipeline ASR :
+
+[![Stargazers over time](https://starchart.cc/lina2306i/call-analytics-pipeline.svg?variant=adaptive)](https://starchart.cc/lina2306i/call-analytics-pipeline)
 
 ---
 
@@ -320,11 +342,15 @@ RTF moyen             : 0.10x  ✅ objectif < 1.0
 
 MIT License — voir [LICENSE](LICENSE)
 
+
 ---
 
-## Auteur
+## 👩‍💻 Auteur
 
-**[Lina Labiadh]**
+**Lina Labiadh** — *Ingénieure Data & AI*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0077b5?logo=linkedin)](https://linkedin.com/in/linalabiadh)
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:lina.hkl2306@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0077b5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/linalabiadh/)
+[![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=lina.hkl2306@gmail.com)
+
+*📧 Si le bouton email ne s'ouvre pas, vous pouvez me contacter directement à : **lina.hkl2306@gmail.com***
+
