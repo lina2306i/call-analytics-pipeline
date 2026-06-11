@@ -2,6 +2,7 @@
 
 > Pipeline de reconnaissance vocale automatique (ASR) pour l'analyse d'appels de centres d'appels.
 > De l'audio brut aux rapports structurés avec métriques ASR, NLP et conformité.
+
 > End-to-end pipeline: raw audio → transcription → diarization → NLP → compliance → reports.
 
 
@@ -10,6 +11,12 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-CUDA-ee4c2c?logo=pytorch&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-ff4b4b?logo=streamlit&logoColor=white)
 ![WER](https://img.shields.io/badge/WER-7.8%25-brightgreen)
+![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange)
+![spaCy](https://img.shields.io/badge/spaCy-v3.7-09A3D5?logo=spacy&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-12.1-76B900?logo=nvidia&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
@@ -209,8 +216,8 @@ python pipeline.py --input data/raw/synth/ --generate
 reports/
 ├── calls/
 │   └── CC-call001-20250519123456.json   # per-call JSON
-├── batch_2025-05-19.csv                 # daily batch CSV
-├── summary_2025-05-19.xlsx              # Excel workbook (5 sheets)
+├── batch_2026-05-31.csv                 # daily batch CSV
+├── summary_2026-05-31.xlsx              # Excel workbook (5 sheets)
 └── calls.db                             # SQLite database
 ```
 
