@@ -617,3 +617,79 @@
 2026-06-03 15:17:14 | INFO     | compliance_checker        |   Compliance check — 1 turns
 2026-06-03 15:17:14 | INFO     | compliance_checker        |   Done in 0.002s | FAIL — 4 flags
 2026-06-03 15:17:14 | INFO     | report_builder            |   Record built: CC-tmpxw7fpe52-20260603141701 | compliance=FAIL | intent=unknown
+2026-06-11 13:58:50 | INFO     | audio_preprocessor        | Preprocessing: tmpo60lzwrt.mp3
+2026-06-11 13:58:50 | INFO     | audio_preprocessor        | Preprocessing: tmpwut0844t.mp3
+2026-06-11 13:58:55 | INFO     | diarizer                  |   Diarizing: tmpo60lzwrt.mp3
+2026-06-11 13:58:55 | INFO     | diarizer                  |   Using single-speaker fallback (no diarization)
+2026-06-11 13:58:55 | INFO     | nlp_analyzer              |   NLP analysis — 1 turns
+2026-06-11 13:58:55 | INFO     | diarizer                  |   Diarizing: tmpwut0844t.mp3
+2026-06-11 13:58:55 | INFO     | diarizer                  |   Using single-speaker fallback (no diarization)
+2026-06-11 13:58:55 | INFO     | nlp_analyzer              |   NLP analysis — 1 turns
+2026-06-11 13:59:01 | INFO     | nlp_analyzer              | Loading spaCy model: en_core_web_sm
+2026-06-11 13:59:01 | INFO     | nlp_analyzer              | Loading spaCy model: en_core_web_sm
+2026-06-11 13:59:16 | INFO     | nlp_analyzer              | Loading sentiment model: distilbert-base-uncased-finetuned-sst-2-english
+2026-06-11 13:59:16 | INFO     | nlp_analyzer              | Loading sentiment model: distilbert-base-uncased-finetuned-sst-2-english
+2026-06-11 13:59:18 | INFO     | nlp_analyzer              | Loading intent model: typeform/distilbert-base-uncased-mnli
+2026-06-11 13:59:18 | INFO     | nlp_analyzer              | Loading intent model: typeform/distilbert-base-uncased-mnli
+2026-06-11 13:59:24 | INFO     | nlp_analyzer              |   Done in 29.3s | sentiment=POSITIVE | intent=payment_issue
+2026-06-11 13:59:24 | INFO     | compliance_checker        |   Compliance check — 1 turns
+2026-06-11 13:59:24 | INFO     | compliance_checker        |   Done in 0.017s | FAIL — 4 flags
+2026-06-11 13:59:24 | INFO     | report_builder            |   Record built: CC-tmpo60lzwrt-20260611125850 | compliance=FAIL | intent=payment_issue
+2026-06-11 13:59:24 | INFO     | nlp_analyzer              |   Done in 29.4s | sentiment=POSITIVE | intent=payment_issue
+2026-06-11 13:59:24 | INFO     | compliance_checker        |   Compliance check — 1 turns
+2026-06-11 13:59:24 | INFO     | compliance_checker        |   Done in 0.001s | FAIL — 4 flags
+2026-06-11 13:59:24 | INFO     | report_builder            |   Record built: CC-tmpwut0844t-20260611125850 | compliance=FAIL | intent=payment_issue
+2026-06-11 14:00:06 | INFO     | audio_preprocessor        | Preprocessing: tmp4ts1idjv.mp3
+2026-06-11 14:00:11 | INFO     | diarizer                  |   Diarizing: tmp4ts1idjv.mp3
+2026-06-11 14:00:11 | INFO     | diarizer                  |   Using single-speaker fallback (no diarization)
+2026-06-11 14:00:11 | INFO     | nlp_analyzer              |   NLP analysis — 1 turns
+2026-06-11 14:00:11 | INFO     | nlp_analyzer              | Loading spaCy model: en_core_web_sm
+2026-06-11 14:00:12 | INFO     | nlp_analyzer              | Loading sentiment model: distilbert-base-uncased-finetuned-sst-2-english
+2026-06-11 14:00:13 | INFO     | nlp_analyzer              | Loading intent model: typeform/distilbert-base-uncased-mnli
+2026-06-11 14:00:17 | INFO     | nlp_analyzer              |   Done in 5.4s | sentiment=POSITIVE | intent=unknown
+2026-06-11 14:00:17 | INFO     | compliance_checker        |   Compliance check — 1 turns
+2026-06-11 14:00:17 | INFO     | compliance_checker        |   Done in 0.002s | FAIL — 4 flags
+2026-06-11 14:00:17 | INFO     | report_builder            |   Record built: CC-tmp4ts1idjv-20260611130006 | compliance=FAIL | intent=unknown
+2026-06-11 14:01:08 | INFO     | audio_preprocessor        | Preprocessing: tmp_4064rad.mp3
+2026-06-11 14:01:21 | INFO     | audio_preprocessor        |   Chunked into 2 segments (max 600s each)
+2026-06-11 14:01:21 | INFO     | transcriber               | Loading whisper model: base
+2026-06-11 14:01:23 | INFO     | transcriber               |   Model loaded in 2.1s  [whisper-base]
+2026-06-11 14:01:23 | INFO     | transcriber               |   Transcribing: tmp_4064rad.mp3
+2026-06-11 14:06:57 | INFO     | transcriber               |   Done in 333.4s | RTF=0.40x | lang=en | 259 segments
+2026-06-11 14:06:57 | INFO     | diarizer                  |   Diarizing: tmp_4064rad.mp3
+2026-06-11 14:06:57 | INFO     | diarizer                  |   Using single-speaker fallback (no diarization)
+2026-06-11 14:06:57 | INFO     | nlp_analyzer              |   NLP analysis — 1 turns
+2026-06-11 14:06:57 | INFO     | nlp_analyzer              | Loading spaCy model: en_core_web_sm
+2026-06-11 14:06:58 | INFO     | nlp_analyzer              | Loading sentiment model: distilbert-base-uncased-finetuned-sst-2-english
+2026-06-11 14:06:59 | INFO     | nlp_analyzer              | Loading intent model: typeform/distilbert-base-uncased-mnli
+2026-06-11 14:07:03 | INFO     | nlp_analyzer              |   Done in 6.3s | sentiment=NEGATIVE | intent=unknown
+2026-06-11 14:07:03 | INFO     | compliance_checker        |   Compliance check — 1 turns
+2026-06-11 14:07:03 | INFO     | compliance_checker        |   Done in 0.005s | FAIL — 4 flags
+2026-06-11 14:07:03 | INFO     | report_builder            |   Record built: CC-tmp_4064rad-20260611130108 | compliance=FAIL | intent=unknown
+2026-06-11 14:09:10 | INFO     | audio_preprocessor        | Preprocessing: tmp2o06g2cf.mp3
+2026-06-11 14:09:17 | INFO     | diarizer                  |   Diarizing: tmp2o06g2cf.mp3
+2026-06-11 14:09:17 | INFO     | diarizer                  |   Using single-speaker fallback (no diarization)
+2026-06-11 14:09:17 | INFO     | nlp_analyzer              |   NLP analysis — 1 turns
+2026-06-11 14:09:17 | INFO     | nlp_analyzer              | Loading spaCy model: en_core_web_sm
+2026-06-11 14:09:18 | INFO     | nlp_analyzer              | Loading sentiment model: distilbert-base-uncased-finetuned-sst-2-english
+2026-06-11 14:09:19 | INFO     | nlp_analyzer              | Loading intent model: typeform/distilbert-base-uncased-mnli
+2026-06-11 14:09:23 | INFO     | nlp_analyzer              |   Done in 5.4s | sentiment=POSITIVE | intent=unknown
+2026-06-11 14:09:23 | INFO     | compliance_checker        |   Compliance check — 1 turns
+2026-06-11 14:09:23 | INFO     | compliance_checker        |   Done in 0.002s | FAIL — 4 flags
+2026-06-11 14:09:23 | INFO     | report_builder            |   Record built: CC-tmp2o06g2cf-20260611130910 | compliance=FAIL | intent=unknown
+2026-06-11 14:10:20 | INFO     | audio_preprocessor        | Preprocessing: tmpf03vm33t.mp3
+2026-06-11 14:10:31 | INFO     | audio_preprocessor        |   Chunked into 2 segments (max 600s each)
+2026-06-11 14:10:31 | INFO     | transcriber               | Loading whisper model: base
+2026-06-11 14:10:33 | INFO     | transcriber               |   Model loaded in 1.7s  [whisper-base]
+2026-06-11 14:10:33 | INFO     | transcriber               |   Transcribing: tmpf03vm33t.mp3
+2026-06-11 14:13:06 | INFO     | transcriber               |   Done in 153.4s | RTF=0.22x | lang=en | 114 segments
+2026-06-11 14:13:06 | INFO     | diarizer                  |   Diarizing: tmpf03vm33t.mp3
+2026-06-11 14:13:06 | INFO     | diarizer                  |   Using single-speaker fallback (no diarization)
+2026-06-11 14:13:06 | INFO     | nlp_analyzer              |   NLP analysis — 1 turns
+2026-06-11 14:13:06 | INFO     | nlp_analyzer              | Loading spaCy model: en_core_web_sm
+2026-06-11 14:13:07 | INFO     | nlp_analyzer              | Loading sentiment model: distilbert-base-uncased-finetuned-sst-2-english
+2026-06-11 14:13:07 | INFO     | nlp_analyzer              | Loading intent model: typeform/distilbert-base-uncased-mnli
+2026-06-11 14:13:09 | INFO     | nlp_analyzer              |   Done in 2.5s | sentiment=POSITIVE | intent=unknown
+2026-06-11 14:13:09 | INFO     | compliance_checker        |   Compliance check — 1 turns
+2026-06-11 14:13:09 | INFO     | compliance_checker        |   Done in 0.001s | FAIL — 4 flags
+2026-06-11 14:13:09 | INFO     | report_builder            |   Record built: CC-tmpf03vm33t-20260611131020 | compliance=FAIL | intent=unknown
