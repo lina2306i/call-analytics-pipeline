@@ -1,4 +1,4 @@
-# Environnement virtuel
+# Environnement virtuel et cache Python
 .venv/
 venv/
 __pycache__/
@@ -7,7 +7,16 @@ __pycache__/
 # Données et bases de données (trop lourdes pour GitHub)
 data/
 reports/calls.db
+
+# Fichiers de configuration ou d'exécution temporaires
 .pipeline_run.yaml
 
 # Configuration secrète (si tu as mis ton HF_TOKEN dedans)
 #config.yaml
+
+# Cacher les fichiers de logs et les bases de données SQLite locales
+logs/*.log
+reports/calls.db
+
+# Cacher UNIQUEMENT les fichiers d'appels temporaires (les "tmp")
+reports/calls/CC-tmp*
