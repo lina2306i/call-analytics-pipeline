@@ -24,14 +24,6 @@
 
 ---
 
-## 📈 Évolution du projet (Stargazers over time)
-
-Si vous aimez ce projet, n'hésitez pas à laisser une 🌟 ! L'évolution des étoiles montre l'intérêt de la communauté pour ce pipeline ASR :
-
-[![Stargazers over time](https://starchart.cc/lina2306i/call-analytics-pipeline.svg?variant=adaptive)](https://starchart.cc/lina2306i/call-analytics-pipeline)
-
----
-
 ## Aperçu
 
 Ce projet implémente la **chaîne complète ASR** :
@@ -357,4 +349,12 @@ MIT License — voir [LICENSE](LICENSE)
 [![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=lina.hkl2306@gmail.com)
 
 *📧 Si le bouton email ne s'ouvre pas, vous pouvez me contacter directement à : **lina.hkl2306@gmail.com***
->>>>>>> 87199f66ec277a9629ccba52323a647f497fe227
+
+---
+
+## 📈 Évolution du projet (Stargazers over time)
+
+Si vous aimez ce projet, n'hésitez pas à laisser une 🌟 ! L'évolution des étoiles montre l'intérêt de la communauté pour ce pipeline ASR :
+
+[![Stargazers over time](https://starchart.cc/lina2306i/call-analytics-pipeline.svg?variant=adaptive)](https://starchart.cc/lina2306i/call-analytics-pipeline)
+
