@@ -13,7 +13,6 @@
 ![WER](https://img.shields.io/badge/WER-7.8%25-brightgreen)
 ![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange)
 ![spaCy](https://img.shields.io/badge/spaCy-v3.7-09A3D5?logo=spacy&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-12.1-76B900?logo=nvidia&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
@@ -335,5 +334,5 @@ MIT License — voir [LICENSE](LICENSE)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0077b5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/linalabiadh/)
 [![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lina.hkl2306@gmail.com)
-
+[![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=lina.hkl2306@gmail.com)
 *📧 Si le bouton email ne s'ouvre pas, vous pouvez me contacter directement à : **lina.hkl2306@gmail.com***
