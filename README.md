@@ -23,11 +23,7 @@
 ![Capture d'écran du Dashboard](assets/dashboard_preview.png)
 
 ---
-<p align="center">
-  <img src="assets/dashboard_preview.png" alt="Call Analytics Dashboard Preview" width="800">
-</p>
 
----
 ## 📈 Évolution du projet (Stargazers over time)
 
 Si vous aimez ce projet, n'hésitez pas à laisser une 🌟 ! L'évolution des étoiles montre l'intérêt de la communauté pour ce pipeline ASR :
