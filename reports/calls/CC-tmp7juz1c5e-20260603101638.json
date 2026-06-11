@@ -1,0 +1,339 @@
+{
+  "call_id": "CC-tmp7juz1c5e-20260603101638",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmp7juz1c5e.mp3",
+  "processed_at": "2026-06-03T13:50:42.918163",
+  "duration_sec": 433.584,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Hello? Hello? Hello? Hello? Hello, Madame Lefice, I hope you are well. Yes, I hear you. Madame, it's Stephanie Marcotte from the Arctical Institute. I remind you that regarding the form you filled out for the presentation, Madame, do you remember? It was... If you can speak to me quickly, because I don't understand everything you say. I see, no problem. I told you, Madame, I am Sophie Marcotte from the Arctical Institute. I remind you that regarding the form you filled out on the 27th of January 2025, regarding the investment in mines, Madame, we have been trying to call you since that day, but we have not been successful. So you were fired today. It's good. Fortunately, we have the opportunity to see what you are doing, Madame. Do you remember the form and everything? No. Okay, no problem. Anyway, Madame... Tell me. Okay. I will explain. Actually, it's an opportunity to make a little more money, okay? Through what? Through an automatic application that works with the help of the Arctical Institute's Okay? Yes, yes, yes, but I have a lady who takes care of me for that. A lady who takes care of you? Like that? How, Madame? I don't understand. Any Guest. Any Guest. No, Madame, I was just saying something else. Yes, but I am also Any Guest. Okay. So you did... Any Guest, Madame, it's just an application to see what the person is doing. It was as if it was just not trading, Any Guest, Madame. Are you sure you are not trading with brokers? No, not at all. Okay, okay, okay. Anyway, Madame, as I told you, it's an opportunity today, okay? To start investing in oil with a minimum capital. And the application, as I told you, is automatic, so you don't need a second person with you or a third person. Okay? Yes. So, the application is a trading robot. So when you install the application and start trading, the robot itself launches its own actions on the market, which are tonnage. Okay? It places positions. Okay? When you see on the French market, say, the Bitcoin is in 2, okay? Or the big brands this week, since there is the single-factor soon, okay? So, it can place actions, say, on these markets. The actions are, say, small because you are going to start with a minimum capital, as I told you. And the losses are minimized at 2 cents per action. You see? The losses are minimized. Minimized? Yes, at 2 cents per action. So, let's say that when the robot has analyzed this action that it has already placed, okay? It has placed, say, a hundred euros on a market, on any market. It found that we started to lose. We are not doing damage. We are starting to lose. If you detect a loss of 2 cents, okay? You have to stop this action there. You see? So, that's the robot's job. And then you will have access to a monitor, a monitor that is a physical person, saying that it is a coach, okay? To train you, to help you launch actions in markets that will cause damage. I don't know, are you looking for something for long-term or short-term, madam? What are your goals, actually? Long-term, but anyway, I don't have credit on my account. Okay. How are you? Okay. And the actions, I'm not interested. I don't understand, madam, if you already make investments, how are the actions? I'm not interested. Well, I'm already at Enitesk, that's enough for me. Okay, and you do damage to them? Yes. How much do you make, madam? If it's not secret. Well, I'm about 3,000 euros. Pardon? I'm about 3,000 euros. By month? I invested 250 euros. Okay, okay, so it was with a... Okay, madam, did they say you would have 14 days of remuneration if you started today and all that? It's just a trial period. Okay, so it will be a trial period if you start today, on February 3rd, okay? During 14 days, you can try the application, try the markets, try to work with the monitor, to achieve your goals, okay? And if you don't like the thing or whatever, you can always withdraw money. Okay, madam? Uh-huh. Okay, so you can start today with the same capital, 10 years, okay? It's 250 euros, but you would also... I have nothing on my account. How is that, madam? How do you say you make 3,000 euros per month, but you have nothing? No, it's not 3,000 euros per month, it's not been long since I've been here, and I can withdraw some money. Okay. But for now, I have to wait until I have a capital of 2,500 euros to put them back on my account, and then the actions will be able to be bought twice. I will have the hospital twice, or something like that. Okay, madam, I'm just going to check... So, maybe you can... Are the actions you do, in fact... Are they in the crypto? What exactly are they in? What is crypto? It's the market of digital money. Yes? Okay, so are you in this field, madam? I'm not aware of this field at all. Okay, then... I'm a midwife, and I don't want to do anything else. Okay, no problem, madam. I wish you the best. Thank you, you too.",
+  "language_detected": "en",
+  "whisper_model": "whisper-medium",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Hello? Hello?  Hello? Hello?  Hello, Madame Lefice, I hope you are well. Yes, I hear you. Madame, it's Stephanie Marcotte from the Arctical Institute. I remind you that regarding the form you filled out for the presentation, Madame, do you remember? It was... If you can speak to me quickly, because I don't understand everything you say.                 I see, no problem. I told you, Madame, I am Sophie Marcotte from the Arctical Institute. I remind you that regarding the form you filled out on the 27th of January 2025, regarding the investment in mines, Madame, we have been trying to call you since that day, but we have not been successful. So you were fired today. It's good. Fortunately, we have the opportunity to see what you are doing, Madame. Do you remember the form and everything? No. Okay, no problem. Anyway, Madame... Tell me. Okay. I will explain. Actually, it's an opportunity to make a little more money, okay? Through what? Through an automatic application that works with the help of the Arctical Institute's  Okay? Yes, yes, yes, but I have a lady who takes care of me for that. A lady who takes care of you? Like that? How, Madame? I don't understand. Any Guest. Any Guest. No, Madame, I was just saying something else. Yes, but I am also Any Guest. Okay. So you did... Any Guest, Madame, it's just an application to see what the person is doing. It was as if it was just not trading, Any Guest, Madame. Are you sure you are not trading with brokers? No, not at all.  Okay, okay, okay. Anyway, Madame, as I told you, it's an opportunity today, okay? To start investing in oil with a minimum capital. And the application, as I told you, is automatic, so you don't need a second person with you or a third person. Okay? Yes. So, the application is a trading robot. So when you install the application and start trading, the robot itself launches its own actions on the market, which are tonnage. Okay? It places positions. Okay? When you see on the French market, say, the Bitcoin is in 2, okay? Or the big brands this week, since there is the single-factor soon, okay? So, it can place actions, say, on these markets. The actions are, say, small because you are going to start with a minimum capital, as I told you. And the losses are minimized at 2 cents per action. You see? The losses are minimized. Minimized? Yes, at 2 cents per action. So, let's say that when the robot has analyzed this action that it has already placed, okay? It has placed, say, a hundred euros on a market, on any market. It found that we started to lose. We are not doing damage. We are starting to lose. If you detect a loss of 2 cents, okay? You have to stop this action there. You see? So, that's the robot's job. And then you will have access to a monitor, a monitor that is a physical person, saying that it is a coach, okay? To train you, to help you launch actions in markets that will cause damage. I don't know, are you looking for something for long-term or short-term, madam? What are your goals, actually? Long-term, but anyway, I don't have credit on my account. Okay. How are you? Okay. And the actions, I'm not interested. I don't understand, madam, if you already make investments, how are the actions? I'm not interested. Well, I'm already at Enitesk, that's enough for me. Okay, and you do damage to them? Yes. How much do you make, madam? If it's not secret. Well, I'm about 3,000 euros. Pardon? I'm about 3,000 euros. By month? I invested 250 euros. Okay, okay, so it was with a... Okay, madam, did they say you would have 14 days of remuneration if you started today and all that? It's just a trial period. Okay, so it will be a trial period if you start today, on February 3rd, okay? During 14 days, you can try the application, try the markets, try to work with the monitor, to achieve your goals, okay? And if you don't like the thing or whatever, you can always withdraw money. Okay, madam? Uh-huh. Okay, so you can start today with the same capital, 10 years, okay? It's 250 euros, but you would also... I have nothing on my account. How is that, madam? How do you say you make 3,000 euros per month, but you have nothing? No, it's not 3,000 euros per month, it's not been long since I've been here, and I can withdraw some money. Okay. But for now, I have to wait until I have a capital of 2,500 euros to put them back on my account, and then the actions will be able to be bought twice. I will have the hospital twice, or something like that. Okay, madam, I'm just going to check... So, maybe you can... Are the actions you do, in fact... Are they in the crypto? What exactly are they in? What is crypto? It's the market of digital money. Yes? Okay, so are you in this field, madam? I'm not aware of this field at all. Okay, then... I'm a midwife, and I don't want to do anything else. Okay, no problem, madam. I wish you the best. Thank you, you too.",
+      "start_sec": 2.3599999999999985,
+      "end_sec": 433.14,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.9898,
+      "intent_label": "unknown",
+      "intent_score": 0.2527,
+      "entities": [
+        {
+          "text": "Hello, Madame Lefice",
+          "label": "ORG"
+        },
+        {
+          "text": "Stephanie Marcotte",
+          "label": "PERSON"
+        },
+        {
+          "text": "the Arctical Institute",
+          "label": "ORG"
+        },
+        {
+          "text": "Sophie Marcotte",
+          "label": "PERSON"
+        },
+        {
+          "text": "the Arctical Institute",
+          "label": "ORG"
+        },
+        {
+          "text": "the 27th of January 2025",
+          "label": "DATE"
+        },
+        {
+          "text": "that day",
+          "label": "DATE"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "the Arctical Institute's",
+          "label": "ORG"
+        },
+        {
+          "text": "Any Guest",
+          "label": "PERSON"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "second",
+          "label": "ORDINAL"
+        },
+        {
+          "text": "third",
+          "label": "ORDINAL"
+        },
+        {
+          "text": "French",
+          "label": "NORP"
+        },
+        {
+          "text": "Bitcoin",
+          "label": "PERSON"
+        },
+        {
+          "text": "2",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "this week",
+          "label": "DATE"
+        },
+        {
+          "text": "2 cents",
+          "label": "MONEY"
+        },
+        {
+          "text": "Minimized",
+          "label": "PERSON"
+        },
+        {
+          "text": "2 cents",
+          "label": "MONEY"
+        },
+        {
+          "text": "hundred",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "2 cents",
+          "label": "MONEY"
+        },
+        {
+          "text": "Enitesk",
+          "label": "ORG"
+        },
+        {
+          "text": "about 3,000",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "about 3,000",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "month",
+          "label": "DATE"
+        },
+        {
+          "text": "250",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "14 days",
+          "label": "DATE"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "February 3rd",
+          "label": "DATE"
+        },
+        {
+          "text": "14 days",
+          "label": "DATE"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "10 years",
+          "label": "DATE"
+        },
+        {
+          "text": "250",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "3,000",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "3,000",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "2,500",
+          "label": "CARDINAL"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.9898,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "Hello, Madame Lefice",
+      "label": "ORG"
+    },
+    {
+      "text": "Stephanie Marcotte",
+      "label": "PERSON"
+    },
+    {
+      "text": "the Arctical Institute",
+      "label": "ORG"
+    },
+    {
+      "text": "Sophie Marcotte",
+      "label": "PERSON"
+    },
+    {
+      "text": "the 27th of January 2025",
+      "label": "DATE"
+    },
+    {
+      "text": "that day",
+      "label": "DATE"
+    },
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "the Arctical Institute's",
+      "label": "ORG"
+    },
+    {
+      "text": "Any Guest",
+      "label": "PERSON"
+    },
+    {
+      "text": "second",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "third",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "French",
+      "label": "NORP"
+    },
+    {
+      "text": "Bitcoin",
+      "label": "PERSON"
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "this week",
+      "label": "DATE"
+    },
+    {
+      "text": "2 cents",
+      "label": "MONEY"
+    },
+    {
+      "text": "Minimized",
+      "label": "PERSON"
+    },
+    {
+      "text": "hundred",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "Enitesk",
+      "label": "ORG"
+    },
+    {
+      "text": "about 3,000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "month",
+      "label": "DATE"
+    },
+    {
+      "text": "250",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "14 days",
+      "label": "DATE"
+    },
+    {
+      "text": "February 3rd",
+      "label": "DATE"
+    },
+    {
+      "text": "10 years",
+      "label": "DATE"
+    },
+    {
+      "text": "3,000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "2,500",
+      "label": "CARDINAL"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-06-03",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

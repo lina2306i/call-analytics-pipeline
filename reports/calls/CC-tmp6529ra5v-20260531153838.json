@@ -1,0 +1,87 @@
+{
+  "call_id": "CC-tmp6529ra5v-20260531153838",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmp6529ra5v.mp3",
+  "processed_at": "2026-05-31T15:38:42.905156",
+  "duration_sec": 6.528,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Hello, I'm calling about a double charge on my account last month. I need this resolved, please.",
+  "language_detected": "en",
+  "whisper_model": "whisper-small",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Hello, I'm calling about a double charge on my account last month. I need this resolved, please.",
+      "start_sec": 0.0,
+      "end_sec": 6.04,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9937,
+      "intent_label": "unknown",
+      "intent_score": 0.3831,
+      "entities": [
+        {
+          "text": "last month",
+          "label": "DATE"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9937,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "last month",
+      "label": "DATE"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "SM-001",
+  "call_date": "2026-05-31",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

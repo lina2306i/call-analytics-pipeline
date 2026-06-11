@@ -1,0 +1,121 @@
+{
+  "call_id": "CC-SYNTH-0019-PAYMENT_ISSUE-20260530004601",
+  "audio_path": "data\\raw\\synth\\SYNTH-0019-PAYMENT_ISSUE.mp3",
+  "processed_at": "2026-05-30T00:46:03.395155",
+  "duration_sec": 44.328,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent Hello. How can I assist you today? Customer My Payment is not going through. I tried three times and it keeps declining. Agent, I can help with that. Can you read me your card number? Customer Sure. It is 411-222233334444. Agent Thank You. The expiry date? Customer 09926. Agent, I can see the issue. Your card was flagged for a security check. I will clear that flag now. Can you try the payment again in a few minutes? Customer OK, I will try again. Thank You.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent Hello. How can I assist you today? Customer My Payment is not going through. I tried three times and it keeps declining. Agent, I can help with that. Can you read me your card number? Customer Sure. It is 411-222233334444. Agent Thank You. The expiry date? Customer 09926. Agent, I can see the issue. Your card was flagged for a security check. I will clear that flag now. Can you try the payment again in a few minutes? Customer OK, I will try again. Thank You.",
+      "start_sec": 0.0,
+      "end_sec": 44.12,
+      "sentiment_label": "NEUTRAL",
+      "sentiment_score": 0.6013,
+      "intent_label": "payment_issue",
+      "intent_score": 0.7551,
+      "entities": [
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "411-222233334444",
+          "label": "DATE"
+        },
+        {
+          "text": "a few minutes",
+          "label": "TIME"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEUTRAL",
+  "overall_sentiment_score": 0.6013,
+  "primary_intent": "payment_issue",
+  "primary_intent_score": 0.7551,
+  "all_entities": [
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "411-222233334444",
+      "label": "DATE"
+    },
+    {
+      "text": "a few minutes",
+      "label": "TIME"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "PII_DETECTED",
+      "description": "Possible credit card spoken aloud",
+      "matched_text": "***********4444",
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "start_sec": 0.0,
+      "end_sec": 44.12,
+      "severity": "critical"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

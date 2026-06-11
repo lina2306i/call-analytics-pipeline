@@ -1,0 +1,77 @@
+{
+  "call_id": "CC-tmp8v8q4elf-20260531144959",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmp8v8q4elf.mp3",
+  "processed_at": "2026-05-31T14:50:04.796474",
+  "duration_sec": 1.752,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Hello, I love you.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Hello, I love you.",
+      "start_sec": 0.0,
+      "end_sec": 1.3,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.9998,
+      "intent_label": "unknown",
+      "intent_score": 0.1579,
+      "entities": []
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.9998,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "SIM-001",
+  "call_date": "2026-05-31",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

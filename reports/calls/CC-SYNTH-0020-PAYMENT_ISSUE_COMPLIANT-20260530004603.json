@@ -1,0 +1,69 @@
+{
+  "call_id": "CC-SYNTH-0020-PAYMENT_ISSUE_COMPLIANT-20260530004603",
+  "audio_path": "data\\raw\\synth\\SYNTH-0020-PAYMENT_ISSUE_COMPLIANT.mp3",
+  "processed_at": "2026-05-30T00:46:05.158080",
+  "duration_sec": 55.176,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent, thank you for calling. This call may be recorded for quality and training purposes. How can I help you today? Customer my payment keeps failing. I need to update my billing details. Agent, I can help with that. To keep your information secure, I will send you a secure link to update your card details. Can I confirm your email address? Customer yes. It is mycatexample.com. Agent, thank you. I have sent the secure link. Please do not share your card number over the phone. The link will expire in 15 minutes. Customer got it. I see the email. I will do it now. Agent, great. Is there anything else I can help you with today? Customer number. That is all. Thanks.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent, thank you for calling. This call may be recorded for quality and training purposes. How can I help you today? Customer my payment keeps failing. I need to update my billing details. Agent, I can help with that. To keep your information secure, I will send you a secure link to update your card details. Can I confirm your email address? Customer yes. It is mycatexample.com. Agent, thank you. I have sent the secure link. Please do not share your card number over the phone. The link will expire in 15 minutes. Customer got it. I see the email. I will do it now. Agent, great. Is there anything else I can help you with today? Customer number. That is all. Thanks.",
+      "start_sec": 0.0,
+      "end_sec": 54.68,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9971,
+      "intent_label": "payment_issue",
+      "intent_score": 0.6851,
+      "entities": [
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "15 minutes",
+          "label": "TIME"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9971,
+  "primary_intent": "payment_issue",
+  "primary_intent_score": 0.6851,
+  "all_entities": [
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "15 minutes",
+      "label": "TIME"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

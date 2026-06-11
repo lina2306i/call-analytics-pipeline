@@ -1,0 +1,179 @@
+{
+  "call_id": "CC-tmp6_bs_3lg-20260603031431",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmp6_bs_3lg.mp3",
+  "processed_at": "2026-06-03T03:14:46.082494",
+  "duration_sec": 125.988625,
+  "sample_rate": 16000,
+  "num_channels": 2,
+  "full_transcript": "Call is now being recorded. Parker scarves, how may I help you? I got a scarf online from my wife and it turns out they shipped the wrong color. Oh, I am so sorry, sir. I got it for a birthday which is tonight and now I'm not 100% sure what I need to do. Okay, let me see if I can help you. Do you have the item number of the Parker scarves? I don't think so. It's called a New Yorker, I think. Excellent, okay. What color did you want the New Yorker in? Blue. The one that shipped was light blue. I wanted it to dark or one. Did you want navy blue or royal blue? What's the difference there? The royal blue is a bit brighter. That's the one I want. Okay, what zip code are you located in? 1946. Okay, the peers that we do not, or I'm sorry, that we do have that item in stock. It's Karen Sputik at the Hunter Mall, is that close by? It is, it's right by my office. Okay, what is your name, sir? Charlie Johnson. Charlie Johnson, is that J.O.H.N.S.O.N.? Yes, ma'am. Mr. Johnson, do you have the Parker scarves in light blue with you now? I do, they shipped it to my office. It just came in not that long ago. Okay, what I will do is make arrangements with Karen Sputik for you to exchange the Parker scarves at no additional cost. And in addition, I was able to look up your order in our system, and I'm going to send out a special gift to you to make up for the inconvenience. Oh, excellent. Thank you so much. You're welcome. And thank you for calling Parker Scarf, and I hope your wife enjoys her birthday gift. Oh, thank you. Thank you very much. You're very welcome. Goodbye. Hold up.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Call is now being recorded. Parker scarves, how may I help you? I got a scarf online from my wife and it turns out they shipped the wrong color. Oh, I am so sorry, sir. I got it for a birthday which is tonight and now I'm not 100% sure what I need to do. Okay, let me see if I can help you. Do you have the item number of the Parker scarves? I don't think so. It's called a New Yorker, I think. Excellent, okay. What color did you want the New Yorker in? Blue. The one that shipped was light blue. I wanted it to dark or one. Did you want navy blue or royal blue? What's the difference there? The royal blue is a bit brighter. That's the one I want. Okay, what zip code are you located in? 1946. Okay, the peers that we do not, or I'm sorry, that we do have that item in stock. It's Karen Sputik at the Hunter Mall, is that close by? It is, it's right by my office. Okay, what is your name, sir? Charlie Johnson. Charlie Johnson, is that J.O.H.N.S.O.N.? Yes, ma'am. Mr. Johnson, do you have the Parker scarves in light blue with you now? I do, they shipped it to my office. It just came in not that long ago. Okay, what I will do is make arrangements with Karen Sputik for you to exchange the Parker scarves at no additional cost. And in addition, I was able to look up your order in our system, and I'm going to send out a special gift to you to make up for the inconvenience. Oh, excellent. Thank you so much. You're welcome. And thank you for calling Parker Scarf, and I hope your wife enjoys her birthday gift. Oh, thank you. Thank you very much. You're very welcome. Goodbye. Hold up.",
+      "start_sec": 0.0,
+      "end_sec": 113.9,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9989,
+      "intent_label": "unknown",
+      "intent_score": 0.2015,
+      "entities": [
+        {
+          "text": "Parker",
+          "label": "ORG"
+        },
+        {
+          "text": "tonight",
+          "label": "TIME"
+        },
+        {
+          "text": "100%",
+          "label": "PERCENT"
+        },
+        {
+          "text": "Parker",
+          "label": "ORG"
+        },
+        {
+          "text": "a New Yorker",
+          "label": "ORG"
+        },
+        {
+          "text": "the New Yorker",
+          "label": "ORG"
+        },
+        {
+          "text": "Karen Sputik",
+          "label": "PERSON"
+        },
+        {
+          "text": "the Hunter Mall",
+          "label": "FAC"
+        },
+        {
+          "text": "Charlie Johnson",
+          "label": "PERSON"
+        },
+        {
+          "text": "Charlie Johnson",
+          "label": "PERSON"
+        },
+        {
+          "text": "Johnson",
+          "label": "PERSON"
+        },
+        {
+          "text": "Parker",
+          "label": "ORG"
+        },
+        {
+          "text": "Karen Sputik",
+          "label": "PERSON"
+        },
+        {
+          "text": "Parker",
+          "label": "ORG"
+        },
+        {
+          "text": "Parker Scarf",
+          "label": "PERSON"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9989,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "Parker",
+      "label": "ORG"
+    },
+    {
+      "text": "tonight",
+      "label": "TIME"
+    },
+    {
+      "text": "100%",
+      "label": "PERCENT"
+    },
+    {
+      "text": "a New Yorker",
+      "label": "ORG"
+    },
+    {
+      "text": "the New Yorker",
+      "label": "ORG"
+    },
+    {
+      "text": "Karen Sputik",
+      "label": "PERSON"
+    },
+    {
+      "text": "the Hunter Mall",
+      "label": "FAC"
+    },
+    {
+      "text": "Charlie Johnson",
+      "label": "PERSON"
+    },
+    {
+      "text": "Johnson",
+      "label": "PERSON"
+    },
+    {
+      "text": "Parker Scarf",
+      "label": "PERSON"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-06-03",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

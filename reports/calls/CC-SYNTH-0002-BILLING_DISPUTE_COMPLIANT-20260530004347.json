@@ -1,0 +1,106 @@
+{
+  "call_id": "CC-SYNTH-0002-BILLING_DISPUTE_COMPLIANT-20260530004347",
+  "audio_path": "data\\raw\\synth\\SYNTH-0002-BILLING_DISPUTE_COMPLIANT.mp3",
+  "processed_at": "2026-05-30T00:43:59.856368",
+  "duration_sec": 49.176,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent, thank you for calling support. Please note this call may be recorded for quality and training purposes. How can I help you today? Customer, hello. I have a billing problem. There is a charge I do not recognize on my account from last week. Agent, I am sorry to hear that. Let me verify your identity first. Can you confirm your full name and the last four digits of your card? Customer, my name is John Smith and the last four digits are 7-7-3-2. Agent, thank you John. I can see an unauthorized charge of $49.99. I will escalate this to our billing team for investigation. Customer, great. Thank you for your help.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent, thank you for calling support. Please note this call may be recorded for quality and training purposes. How can I help you today? Customer, hello. I have a billing problem. There is a charge I do not recognize on my account from last week. Agent, I am sorry to hear that. Let me verify your identity first. Can you confirm your full name and the last four digits of your card? Customer, my name is John Smith and the last four digits are 7-7-3-2. Agent, thank you John. I can see an unauthorized charge of $49.99. I will escalate this to our billing team for investigation. Customer, great. Thank you for your help.",
+      "start_sec": 0.0,
+      "end_sec": 48.92,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9987,
+      "intent_label": "billing_dispute",
+      "intent_score": 0.6172,
+      "entities": [
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "last week",
+          "label": "DATE"
+        },
+        {
+          "text": "first",
+          "label": "ORDINAL"
+        },
+        {
+          "text": "four",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "John Smith",
+          "label": "PERSON"
+        },
+        {
+          "text": "four",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "7-7-3-2",
+          "label": "DATE"
+        },
+        {
+          "text": "John",
+          "label": "PERSON"
+        },
+        {
+          "text": "49.99",
+          "label": "MONEY"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9987,
+  "primary_intent": "billing_dispute",
+  "primary_intent_score": 0.6172,
+  "all_entities": [
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "last week",
+      "label": "DATE"
+    },
+    {
+      "text": "first",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "four",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "John Smith",
+      "label": "PERSON"
+    },
+    {
+      "text": "7-7-3-2",
+      "label": "DATE"
+    },
+    {
+      "text": "John",
+      "label": "PERSON"
+    },
+    {
+      "text": "49.99",
+      "label": "MONEY"
+    }
+  ],
+  "compliance_flags": [],
+  "compliance_passed": true,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

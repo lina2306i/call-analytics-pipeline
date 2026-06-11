@@ -1,0 +1,77 @@
+{
+  "call_id": "CC-tmpd71iki1i-20260531144517",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmpd71iki1i.mp3",
+  "processed_at": "2026-05-31T14:45:33.960474",
+  "duration_sec": 3.12,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "I want to cancel my account immediately.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "I want to cancel my account immediately.",
+      "start_sec": 0.0,
+      "end_sec": 2.5,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9997,
+      "intent_label": "account_cancellation",
+      "intent_score": 0.939,
+      "entities": []
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9997,
+  "primary_intent": "account_cancellation",
+  "primary_intent_score": 0.939,
+  "all_entities": [],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "SIM-001",
+  "call_date": "2026-05-31",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

@@ -1,0 +1,95 @@
+{
+  "call_id": "CC-tmpnlvdzvm5-20260603101006",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmpnlvdzvm5.mp3",
+  "processed_at": "2026-06-03T10:10:10.868353",
+  "duration_sec": 26.4,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent. Thank you for calling. How can I assist you? Customer. My payment keeps failing. I have tried three times. Agent. I can help. To keep things secure. I will send you a payment link. Customer. Thank you. I see the email. Agent. Great. Your payment should go through within a few minutes.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent. Thank you for calling. How can I assist you? Customer. My payment keeps failing. I have tried three times. Agent. I can help. To keep things secure. I will send you a payment link. Customer. Thank you. I see the email. Agent. Great. Your payment should go through within a few minutes.",
+      "start_sec": 0.0,
+      "end_sec": 25.86,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.9529,
+      "intent_label": "payment_issue",
+      "intent_score": 0.4667,
+      "entities": [
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "a few minutes",
+          "label": "TIME"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.9529,
+  "primary_intent": "payment_issue",
+  "primary_intent_score": 0.4667,
+  "all_entities": [
+    {
+      "text": "three",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "a few minutes",
+      "label": "TIME"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-06-03",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

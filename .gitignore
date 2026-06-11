@@ -1,0 +1,13 @@
+# Environnement virtuel
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Données et bases de données (trop lourdes pour GitHub)
+data/
+reports/calls.db
+.pipeline_run.yaml
+
+# Configuration secrète (si tu as mis ton HF_TOKEN dedans)
+#config.yaml

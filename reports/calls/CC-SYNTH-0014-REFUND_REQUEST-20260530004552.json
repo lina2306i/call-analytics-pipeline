@@ -1,0 +1,129 @@
+{
+  "call_id": "CC-SYNTH-0014-REFUND_REQUEST-20260530004552",
+  "audio_path": "data\\raw\\synth\\SYNTH-0014-REFUND_REQUEST.mp3",
+  "processed_at": "2026-05-30T00:45:53.958117",
+  "duration_sec": 34.776,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent Hello, how can I assist you? Customer I want a refund for the product I bought last week. It stopped working after two days. Agent I completely understand. I can guarantee you will get your money back right away. Customer How soon? Agent I promise it will be processed today. Just give me your order number. Customer It is order number 993457. Agent Perfect. I have submitted the refund. Customer Thank you.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent Hello, how can I assist you? Customer I want a refund for the product I bought last week. It stopped working after two days. Agent I completely understand. I can guarantee you will get your money back right away. Customer How soon? Agent I promise it will be processed today. Just give me your order number. Customer It is order number 993457. Agent Perfect. I have submitted the refund. Customer Thank you.",
+      "start_sec": 0.0,
+      "end_sec": 34.56,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.9861,
+      "intent_label": "refund_request",
+      "intent_score": 0.8694,
+      "entities": [
+        {
+          "text": "last week",
+          "label": "DATE"
+        },
+        {
+          "text": "two days",
+          "label": "DATE"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "993457",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "Perfect",
+          "label": "PERSON"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.9861,
+  "primary_intent": "refund_request",
+  "primary_intent_score": 0.8694,
+  "all_entities": [
+    {
+      "text": "last week",
+      "label": "DATE"
+    },
+    {
+      "text": "two days",
+      "label": "DATE"
+    },
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "993457",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "Perfect",
+      "label": "PERSON"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "PROHIBITED_LANGUAGE",
+      "description": "Prohibited phrase detected: \"i promise\"",
+      "matched_text": "mer How soon? Agent I promise it will be processe",
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "start_sec": 0.0,
+      "end_sec": 34.56,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

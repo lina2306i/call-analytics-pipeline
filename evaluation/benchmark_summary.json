@@ -1,0 +1,32 @@
+[
+  {
+    "model": "base",
+    "files_evaluated": 5,
+    "mean_wer": 0.0919,
+    "median_wer": 0.0894,
+    "mean_cer": 0.0655,
+    "mean_rtf": 0.1469,
+    "mean_inference_sec": 6.7904,
+    "load_time_sec": 2.73
+  },
+  {
+    "model": "small",
+    "files_evaluated": 5,
+    "mean_wer": 0.0873,
+    "median_wer": 0.0894,
+    "mean_cer": 0.0617,
+    "mean_rtf": 0.1385,
+    "mean_inference_sec": 6.4186,
+    "load_time_sec": 333.55
+  },
+  {
+    "model": "tiny",
+    "files_evaluated": 5,
+    "mean_wer": 0.0933,
+    "median_wer": 0.0885,
+    "mean_cer": 0.0672,
+    "mean_rtf": 0.1344,
+    "mean_inference_sec": 6.2272,
+    "load_time_sec": 85.2
+  }
+]

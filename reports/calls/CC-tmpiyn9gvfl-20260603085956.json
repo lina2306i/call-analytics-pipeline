@@ -1,0 +1,263 @@
+{
+  "call_id": "CC-tmpiyn9gvfl-20260603085956",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmpiyn9gvfl.mp3",
+  "processed_at": "2026-06-03T09:05:21.445428",
+  "duration_sec": 238.5674375,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Hello everyone, my name is Tom and today I have with me to my awesome colleagues and we can start by getting them introduced Samir. Hey everyone, this is Samir and I'm helping articulating the value provided by our open platform and the plethora of use cases that can be supported. Let's go to the next one. Hi everyone, my name is Will and I talk about the how how do we use the APIs, how do we integrate them, how do we deploy them go live in our production applications. Awesome, thanks guys. Today the topic is about Ring Central's AI APIs around conversational intelligence. So let's get started. Question for Samir, AI is very highly used acronym over the past 45 years, especially. How do you understand it in context of conversations, what capabilities does it bring and how easy it is, is it to use? Very well, Tom, you hit the nail on the head. Yes, AI is very, very highly used acronym for last. I would say 5 to 6 years. But when you think about AI in context of conversations like first thing that comes to the mind is speech to text capability or text to speech capabilities, right. But I think it's much, much beyond that. For example, you can do a lot of interaction analysis, sentiment analysis and emotion analysis with these APIs that we offer. It means if you are in a contact center kind of a use case where supervisor needs to understand what kind of calls are coming in right from all the people around the world to understand the sentiment level. They can simply have a pointer 0 to 5 to figure out the calls coming in fall in what range to understand the sentiment of those calls, right. That's one of the biggest biggest powers that we gave through our AI APIs. Wow, that is so interesting. Next question I have here is for Will. What are the different set of APIs that we just support today and how can you throw some light on the three of the top most used conversational intelligence API. Yeah, use cases across our portfolio of API products. Yeah, great question. We support basically APIs at two categories. One, their audio APIs and the other set of APIs are based on text and three most popular APIs are you can say the speech to text because even audio gets converted into text and then the AI engine gives you the transcript of that. And it can give you transcript with punctuation such as comma so that you can turn it into a report. Another API very popular is the speaker diabilization API. So for example, there are multiple people here in this meeting and the API will tell you which speaker is speaking at which point of time who spoke what essentially. And then there is another API that does speaker identification. This is similar to speaker diabilization API. It detects who speaking. And if the AI model has been trained by the speaker's voice, it can tell you who the person is. If you provide a label such as the name the person and then it will tell you, for example, Will is speaking at this time. Otherwise, it will just say person a person be person. That's great. Well, Samir, Will, thank you so much again for explaining the wise and the house of ring essentials open platform and specifically our intelligent APIs. This program is in beta right now. We will soon be working toward releasing it generally available to the public. So please stay tuned and we look forward to getting some feedback from you.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Hello everyone, my name is Tom and today I have with me to my awesome colleagues and we can start by getting them introduced Samir. Hey everyone, this is Samir and I'm helping articulating the value provided by our open platform and the plethora of use cases that can be supported. Let's go to the next one. Hi everyone, my name is Will and I talk about the how how do we use the APIs, how do we integrate them, how do we deploy them go live in our production applications. Awesome, thanks guys. Today the topic is about Ring Central's AI APIs around conversational intelligence. So let's get started. Question for Samir, AI is very highly used acronym over the past 45 years, especially. How do you understand it in context of conversations, what capabilities does it bring and how easy it is, is it to use? Very well, Tom, you hit the nail on the head. Yes, AI is very, very highly used acronym for last. I would say 5 to 6 years. But when you think about AI in context of conversations like first thing that comes to the mind is speech to text capability or text to speech capabilities, right. But I think it's much, much beyond that. For example, you can do a lot of interaction analysis, sentiment analysis and emotion analysis with these APIs that we offer. It means if you are in a contact center kind of a use case where supervisor needs to understand what kind of calls are coming in right from all the people around the world to understand the sentiment level. They can simply have a pointer 0 to 5 to figure out the calls coming in fall in what range to understand the sentiment of those calls, right. That's one of the biggest biggest powers that we gave through our AI APIs. Wow, that is so interesting. Next question I have here is for Will. What are the different set of APIs that we just support today and how can you throw some light on the three of the top most used conversational intelligence API. Yeah, use cases across our portfolio of API products. Yeah, great question. We support basically APIs at two categories. One, their audio APIs and the other set of APIs are based on text and three most popular APIs are you can say the speech to text because even audio gets converted into text and then the AI engine gives you the transcript of that. And it can give you transcript with punctuation such as comma so that you can turn it into a report. Another API very popular is the speaker diabilization API. So for example, there are multiple people here in this meeting and the API will tell you which speaker is speaking at which point of time who spoke what essentially. And then there is another API that does speaker identification. This is similar to speaker diabilization API. It detects who speaking. And if the AI model has been trained by the speaker's voice, it can tell you who the person is. If you provide a label such as the name the person and then it will tell you, for example, Will is speaking at this time. Otherwise, it will just say person a person be person. That's great. Well, Samir, Will, thank you so much again for explaining the wise and the house of ring essentials open platform and specifically our intelligent APIs. This program is in beta right now. We will soon be working toward releasing it generally available to the public. So please stay tuned and we look forward to getting some feedback from you.",
+      "start_sec": 0.8799999999999997,
+      "end_sec": 238.24,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.9996,
+      "intent_label": "unknown",
+      "intent_score": 0.3605,
+      "entities": [
+        {
+          "text": "Tom",
+          "label": "PERSON"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "Samir",
+          "label": "PERSON"
+        },
+        {
+          "text": "Samir",
+          "label": "PERSON"
+        },
+        {
+          "text": "Today",
+          "label": "DATE"
+        },
+        {
+          "text": "Central",
+          "label": "ORG"
+        },
+        {
+          "text": "Samir",
+          "label": "PERSON"
+        },
+        {
+          "text": "AI",
+          "label": "ORG"
+        },
+        {
+          "text": "the past 45 years",
+          "label": "DATE"
+        },
+        {
+          "text": "Tom",
+          "label": "PERSON"
+        },
+        {
+          "text": "AI",
+          "label": "ORG"
+        },
+        {
+          "text": "5 to 6 years",
+          "label": "DATE"
+        },
+        {
+          "text": "AI",
+          "label": "ORG"
+        },
+        {
+          "text": "first",
+          "label": "ORDINAL"
+        },
+        {
+          "text": "0",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "5",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "one",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "AI",
+          "label": "ORG"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "API",
+          "label": "ORG"
+        },
+        {
+          "text": "two",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "One",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "AI",
+          "label": "ORG"
+        },
+        {
+          "text": "API",
+          "label": "ORG"
+        },
+        {
+          "text": "API",
+          "label": "ORG"
+        },
+        {
+          "text": "API",
+          "label": "ORG"
+        },
+        {
+          "text": "API",
+          "label": "ORG"
+        },
+        {
+          "text": "API",
+          "label": "ORG"
+        },
+        {
+          "text": "AI",
+          "label": "ORG"
+        },
+        {
+          "text": "Samir",
+          "label": "PERSON"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.9996,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "Tom",
+      "label": "PERSON"
+    },
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "Samir",
+      "label": "PERSON"
+    },
+    {
+      "text": "Central",
+      "label": "ORG"
+    },
+    {
+      "text": "AI",
+      "label": "ORG"
+    },
+    {
+      "text": "the past 45 years",
+      "label": "DATE"
+    },
+    {
+      "text": "5 to 6 years",
+      "label": "DATE"
+    },
+    {
+      "text": "first",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "one",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "API",
+      "label": "ORG"
+    },
+    {
+      "text": "two",
+      "label": "CARDINAL"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-06-03",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

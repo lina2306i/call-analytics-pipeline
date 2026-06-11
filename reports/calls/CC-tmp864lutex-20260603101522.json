@@ -1,0 +1,207 @@
+{
+  "call_id": "CC-tmp864lutex-20260603101522",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmp864lutex.mp3",
+  "processed_at": "2026-06-03T10:22:59.656120",
+  "duration_sec": 310.968,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Hello. Hello. Hello. I called you for the introduction of the company's client. I called you to buy a new product from the Libyan logo. I have already told you everything and I will not take it. I will not take it. I will call you because it is a company that you can use. The square size outward is a project for you. The subs candidate in the NAO battery will be at 5. The application will be done at 90, then will be delivered. You swim here short. Thank you very much. I will not be used. I will not be used. I will not be used. I understand that you are a good person. I need to understand what I am doing here. I am just a company and I am preparing for the project. To the whole business, toys right here and here… because when you get number five of a time… like it depends on exactly all the value. Plus, even if not the skulle work in final one three years, so if you ever need to get started in the冷.iony subscribe to Sonya, doesn't it? electronicuku no舌 school Transitionless. In the middle of the road. I was talking to my husband for four days before he quit. That day you had to have breakfast with my grandpa who had eventually saved you all. I don't know. You are a bit sorry, and I will not tell you where I am. I will not tell you where I am. I will not tell you where I am. You need to have a rep or help me. He knows so much, I don't know. Well, this is not... You don't know more about it, because you have not used it yet. You can't do it, but you can give it to me. I don't know. I am not saying that you can take it, but you can take it. And the fact that you take it is because you don't know, but you can take it. And the problem is that you don't take it. So I will not take it. So I will not take it. I will not take it. I will not take it. And what is the case with you? I will not take it. And you cannot take it. While I do not take it. What will you take? I take it. I will take it. I will ask you to put it on the floor, then it will be more expensive for you and more problems. It is more expensive for you. You know what is more difficult to take it. You can take it. I have a three-star set. I can take it. I can not take it. It is more difficult to take it. You can take it. You can use it for 20-20-50 euros. But you can take it. You can take it. And I can not take it. And you can put it on the floor and the floor. więcej 끌 ky mir elis turboto i got a tool to open it. Most likely you began to open it in the 7th. I'm not afraid of such a possibility. I'm afraid of such a possibility. I already told you that I'm not afraid of such a possibility. I'm afraid of such a possibility.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Hello. Hello. Hello. I called you for the introduction of the company's client. I called you to buy a new product from the Libyan logo. I have already told you everything and I will not take it. I will not take it. I will call you because it is a company that you can use. The square size outward is a project for you. The subs candidate in the NAO battery will be at 5. The application will be done at 90, then will be delivered. You swim here short. Thank you very much. I will not be used. I will not be used. I will not be used. I understand that you are a good person. I need to understand what I am doing here. I am just a company and I am preparing for the project. To the whole business, toys right here and here… because when you get number five of a time… like it depends on exactly all the value. Plus, even if not the skulle work in final one three years, so if you ever need to get started in the冷. iony subscribe to Sonya, doesn't it? electronic uku no 舌 school Transitionless. In the middle of the road. I was talking to my husband for four days before he quit. That day you had to have breakfast with my grandpa who had eventually saved you all. I don't know. You are a bit sorry, and I will not tell you where I am. I will not tell you where I am. I will not tell you where I am. You need to have a rep or help me. He knows so much, I don't know. Well, this is not... You don't know more about it, because you have not used it yet. You can't do it, but you can give it to me. I don't know. I am not saying that you can take it, but you can take it. And the fact that you take it is because you don't know, but you can take it. And the problem is that you don't take it. So I will not take it. So I will not take it. I will not take it. I will not take it. And what is the case with you? I will not take it.  And you cannot take it. While I do not take it. What will you take? I take it. I will take it. I will ask you to put it on the floor, then it will be more expensive for you and more problems. It is more expensive for you. You know what is more difficult to take it. You can take it. I have a three-star set. I can take it. I can not take it. It is more difficult to take it. You can take it. You can use it for 20-20-50 euros. But you can take it. You can take it. And I can not take it. And you can put it on the floor and the floor. więcej 끌 ky mir elis turboto i got a tool to open it. Most likely you began to open it in the 7th.     I'm not afraid of such a possibility. I'm afraid of such a possibility. I already told you that I'm not afraid of such a possibility. I'm afraid of such a possibility.",
+      "start_sec": 1.3399999999999985,
+      "end_sec": 310.12,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9933,
+      "intent_label": "unknown",
+      "intent_score": 0.3045,
+      "entities": [
+        {
+          "text": "Libyan",
+          "label": "NORP"
+        },
+        {
+          "text": "NAO",
+          "label": "ORG"
+        },
+        {
+          "text": "5",
+          "label": "DATE"
+        },
+        {
+          "text": "90",
+          "label": "DATE"
+        },
+        {
+          "text": "five",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "three years",
+          "label": "DATE"
+        },
+        {
+          "text": "the冷",
+          "label": "GPE"
+        },
+        {
+          "text": "Sonya",
+          "label": "GPE"
+        },
+        {
+          "text": "uku",
+          "label": "ORG"
+        },
+        {
+          "text": "Transitionless",
+          "label": "WORK_OF_ART"
+        },
+        {
+          "text": "four days",
+          "label": "DATE"
+        },
+        {
+          "text": "That day",
+          "label": "DATE"
+        },
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "20-20-50",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "mir elis turboto",
+          "label": "PERSON"
+        },
+        {
+          "text": "the 7th",
+          "label": "DATE"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9933,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "Libyan",
+      "label": "NORP"
+    },
+    {
+      "text": "NAO",
+      "label": "ORG"
+    },
+    {
+      "text": "5",
+      "label": "DATE"
+    },
+    {
+      "text": "90",
+      "label": "DATE"
+    },
+    {
+      "text": "five",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "three years",
+      "label": "DATE"
+    },
+    {
+      "text": "the冷",
+      "label": "GPE"
+    },
+    {
+      "text": "Sonya",
+      "label": "GPE"
+    },
+    {
+      "text": "uku",
+      "label": "ORG"
+    },
+    {
+      "text": "Transitionless",
+      "label": "WORK_OF_ART"
+    },
+    {
+      "text": "four days",
+      "label": "DATE"
+    },
+    {
+      "text": "That day",
+      "label": "DATE"
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "20-20-50",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "mir elis turboto",
+      "label": "PERSON"
+    },
+    {
+      "text": "the 7th",
+      "label": "DATE"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-06-03",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

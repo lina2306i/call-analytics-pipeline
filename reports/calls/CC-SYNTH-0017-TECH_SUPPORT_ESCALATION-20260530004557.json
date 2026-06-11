@@ -1,0 +1,107 @@
+{
+  "call_id": "CC-SYNTH-0017-TECH_SUPPORT_ESCALATION-20260530004557",
+  "audio_path": "data\\raw\\synth\\SYNTH-0017-TECH_SUPPORT_ESCALATION.mp3",
+  "processed_at": "2026-05-30T00:45:59.678156",
+  "duration_sec": 45.12,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent, thank you for calling. How can I help? Customer I have called three times about the same problem and nobody has fixed it. I want to speak to a manager right now. Agent, I understand you are frustrated. Let me see what I can do. Customer I have been a customer for 10 years, and this is unacceptable. If this is not resolved today, I will take legal action. Agent, sir, please calm down. I will escalate this to a senior agent immediately. Can I put you on a brief hold? Customer fine. But I want this resolved today. Agent, absolutely. I understand. Let me transfer you right now.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent, thank you for calling. How can I help? Customer I have called three times about the same problem and nobody has fixed it. I want to speak to a manager right now. Agent, I understand you are frustrated. Let me see what I can do. Customer I have been a customer for 10 years, and this is unacceptable. If this is not resolved today, I will take legal action. Agent, sir, please calm down. I will escalate this to a senior agent immediately. Can I put you on a brief hold? Customer fine. But I want this resolved today. Agent, absolutely. I understand. Let me transfer you right now.",
+      "start_sec": 0.0,
+      "end_sec": 44.72,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9976,
+      "intent_label": "unknown",
+      "intent_score": 0.2483,
+      "entities": [
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "10 years",
+          "label": "DATE"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9976,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "three",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "10 years",
+      "label": "DATE"
+    },
+    {
+      "text": "today",
+      "label": "DATE"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

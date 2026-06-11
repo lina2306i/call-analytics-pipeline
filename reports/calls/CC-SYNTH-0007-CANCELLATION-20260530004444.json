@@ -1,0 +1,89 @@
+{
+  "call_id": "CC-SYNTH-0007-CANCELLATION-20260530004444",
+  "audio_path": "data\\raw\\synth\\SYNTH-0007-CANCELLATION.mp3",
+  "processed_at": "2026-05-30T00:44:59.213422",
+  "duration_sec": 54.456,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent customer service. How can I help you? Customer I would like to cancel my subscription, please. Agent, I am sorry to hear you want to leave. Can I ask what the reason is? Customer I am moving abroad and will not need the service anymore. Agent, I understand. Before I cancel, I should let you know we have an international plan that might work for you. Would you like to hear more? Customer No, thank you. I just want to cancel. Agent Of course. Let me verify your identity first. What is the email address on the account? Customer It is Sarah at MyMail.com. Agent, thank you Sarah. I have processed the cancellation. Your service will remain active until the end of the billing cycle. Customer Thank you. Goodbye.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent customer service. How can I help you? Customer I would like to cancel my subscription, please. Agent, I am sorry to hear you want to leave. Can I ask what the reason is? Customer I am moving abroad and will not need the service anymore. Agent, I understand. Before I cancel, I should let you know we have an international plan that might work for you. Would you like to hear more? Customer No, thank you. I just want to cancel. Agent Of course. Let me verify your identity first. What is the email address on the account? Customer It is Sarah at MyMail.com. Agent, thank you Sarah. I have processed the cancellation. Your service will remain active until the end of the billing cycle. Customer Thank you. Goodbye.",
+      "start_sec": 0.0,
+      "end_sec": 53.88,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.999,
+      "intent_label": "unknown",
+      "intent_score": 0.2382,
+      "entities": [
+        {
+          "text": "first",
+          "label": "ORDINAL"
+        },
+        {
+          "text": "Sarah",
+          "label": "PERSON"
+        },
+        {
+          "text": "Sarah",
+          "label": "PERSON"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.999,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "first",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "Sarah",
+      "label": "PERSON"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

@@ -1,0 +1,127 @@
+{
+  "call_id": "CC-SYNTH-0011-COMPLAINT-20260530004534",
+  "audio_path": "data\\raw\\synth\\SYNTH-0011-COMPLAINT.mp3",
+  "processed_at": "2026-05-30T00:45:48.769615",
+  "duration_sec": 61.704,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent customer support. How can I help? Customer I want to make a formal complaint. Your agent last week was extremely rude to me. Agent I sincerely apologize for that experience. Can you tell me more about what happened? Customer I called about a billing issue and the agent spoke over me and dismissed my concerns. I have been a loyal customer for five years and I felt completely disrespected. Agent you are absolutely right to raise this. I will file a formal complaint on your behalf. A supervisor will contact you within 24 hours. Can I have your name and account number? Customer my name is Maria Garcia and my account is 7741. Agent, thank you Maria. I have logged the complaint. We take feedback very seriously and this will be investigated. Customer thank you. I hope it gets resolved.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent customer support. How can I help? Customer I want to make a formal complaint. Your agent last week was extremely rude to me. Agent I sincerely apologize for that experience. Can you tell me more about what happened? Customer I called about a billing issue and the agent spoke over me and dismissed my concerns. I have been a loyal customer for five years and I felt completely disrespected. Agent you are absolutely right to raise this. I will file a formal complaint on your behalf. A supervisor will contact you within 24 hours. Can I have your name and account number? Customer my name is Maria Garcia and my account is 7741. Agent, thank you Maria. I have logged the complaint. We take feedback very seriously and this will be investigated. Customer thank you. I hope it gets resolved.",
+      "start_sec": 0.0,
+      "end_sec": 61.3,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.6914,
+      "intent_label": "unknown",
+      "intent_score": 0.2288,
+      "entities": [
+        {
+          "text": "last week",
+          "label": "DATE"
+        },
+        {
+          "text": "five years",
+          "label": "DATE"
+        },
+        {
+          "text": "24 hours",
+          "label": "TIME"
+        },
+        {
+          "text": "Maria Garcia",
+          "label": "PERSON"
+        },
+        {
+          "text": "7741",
+          "label": "DATE"
+        },
+        {
+          "text": "Maria",
+          "label": "PERSON"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.6914,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "last week",
+      "label": "DATE"
+    },
+    {
+      "text": "five years",
+      "label": "DATE"
+    },
+    {
+      "text": "24 hours",
+      "label": "TIME"
+    },
+    {
+      "text": "Maria Garcia",
+      "label": "PERSON"
+    },
+    {
+      "text": "7741",
+      "label": "DATE"
+    },
+    {
+      "text": "Maria",
+      "label": "PERSON"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

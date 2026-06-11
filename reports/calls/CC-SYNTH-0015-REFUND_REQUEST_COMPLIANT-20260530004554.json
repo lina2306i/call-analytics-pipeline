@@ -1,0 +1,97 @@
+{
+  "call_id": "CC-SYNTH-0015-REFUND_REQUEST_COMPLIANT-20260530004554",
+  "audio_path": "data\\raw\\synth\\SYNTH-0015-REFUND_REQUEST_COMPLIANT.mp3",
+  "processed_at": "2026-05-30T00:45:55.895416",
+  "duration_sec": 50.952,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent, thank you for calling. This call may be recorded for quality purposes. How can I help you today? Customer I purchased a product online five days ago and it is defective. I want a full refund. Agent, I am sorry about that experience. Let me verify your identity. Can you provide your email address and order number? Customer sure. My email is johnatexample.com and the order is 993457. Agent, thank you. Your purchase qualifies for our 30-day return policy. I have initiated a full refund of $65. You will receive a confirmation email within 24 hours. Customer perfect. I appreciate that.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent, thank you for calling. This call may be recorded for quality purposes. How can I help you today? Customer I purchased a product online five days ago and it is defective. I want a full refund. Agent, I am sorry about that experience. Let me verify your identity. Can you provide your email address and order number? Customer sure. My email is johnatexample.com and the order is 993457. Agent, thank you. Your purchase qualifies for our 30-day return policy. I have initiated a full refund of $65. You will receive a confirmation email within 24 hours. Customer perfect. I appreciate that.",
+      "start_sec": 0.0,
+      "end_sec": 50.62,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.999,
+      "intent_label": "payment_issue",
+      "intent_score": 0.4483,
+      "entities": [
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "five days ago",
+          "label": "DATE"
+        },
+        {
+          "text": "993457",
+          "label": "DATE"
+        },
+        {
+          "text": "30-day",
+          "label": "DATE"
+        },
+        {
+          "text": "65",
+          "label": "MONEY"
+        },
+        {
+          "text": "24 hours",
+          "label": "TIME"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.999,
+  "primary_intent": "payment_issue",
+  "primary_intent_score": 0.4483,
+  "all_entities": [
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "five days ago",
+      "label": "DATE"
+    },
+    {
+      "text": "993457",
+      "label": "DATE"
+    },
+    {
+      "text": "30-day",
+      "label": "DATE"
+    },
+    {
+      "text": "65",
+      "label": "MONEY"
+    },
+    {
+      "text": "24 hours",
+      "label": "TIME"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

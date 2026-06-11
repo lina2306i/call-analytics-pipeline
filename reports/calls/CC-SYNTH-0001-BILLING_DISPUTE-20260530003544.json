@@ -1,0 +1,133 @@
+{
+  "call_id": "CC-SYNTH-0001-BILLING_DISPUTE-20260530003544",
+  "audio_path": "data\\raw\\synth\\SYNTH-0001-BILLING_DISPUTE.mp3",
+  "processed_at": "2026-05-30T00:43:46.263324",
+  "duration_sec": 45.816,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent, thank you for calling customer support. How can I help you today? Customer high. I need to talk about my bill. I was charged twice for the same month and I need this fixed immediately. Agent, I understand your frustration. Can I have your account number please? Customer yes. It is 48219. Agent, thank you. I can see two charges on the 15th and the 16th. One of them looks like a duplicate. I will raise a refund request for you right now. Customer how long will that take? Agent within 5 to 7 business days, the amount will be back in your account. Customer all right. Thank you.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent, thank you for calling customer support. How can I help you today? Customer high. I need to talk about my bill. I was charged twice for the same month and I need this fixed immediately. Agent, I understand your frustration. Can I have your account number please? Customer yes. It is 48219. Agent, thank you. I can see two charges on the 15th and the 16th. One of them looks like a duplicate. I will raise a refund request for you right now. Customer how long will that take? Agent within 5 to 7 business days, the amount will be back in your account. Customer all right. Thank you.",
+      "start_sec": 0.0,
+      "end_sec": 45.62,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9981,
+      "intent_label": "refund_request",
+      "intent_score": 0.5049,
+      "entities": [
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "the same month",
+          "label": "DATE"
+        },
+        {
+          "text": "48219",
+          "label": "DATE"
+        },
+        {
+          "text": "two",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "the 15th",
+          "label": "DATE"
+        },
+        {
+          "text": "the 16th",
+          "label": "DATE"
+        },
+        {
+          "text": "One",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "5 to 7 business days",
+          "label": "DATE"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9981,
+  "primary_intent": "refund_request",
+  "primary_intent_score": 0.5049,
+  "all_entities": [
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "the same month",
+      "label": "DATE"
+    },
+    {
+      "text": "48219",
+      "label": "DATE"
+    },
+    {
+      "text": "two",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "the 15th",
+      "label": "DATE"
+    },
+    {
+      "text": "the 16th",
+      "label": "DATE"
+    },
+    {
+      "text": "One",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "5 to 7 business days",
+      "label": "DATE"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

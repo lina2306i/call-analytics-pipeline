@@ -1,0 +1,26 @@
+{
+  "total_files": 22,
+  "model": "base",
+  "mean_wer": 0.0892,
+  "median_wer": 0.0894,
+  "min_wer": 0.0076,
+  "max_wer": 0.2066,
+  "mean_cer": 0.0757,
+  "mean_rtf": 0.3029,
+  "mean_duration_sec": 49.79,
+  "wer_by_scenario": {
+    "billing_dispute": 0.1062,
+    "billing_dispute_compliant": 0.0894,
+    "cancellation": 0.0076,
+    "complaint": 0.0479,
+    "general_inquiry": 0.2066,
+    "payment_issue": 0.2,
+    "payment_issue_compliant": 0.0472,
+    "refund_request": 0.0897,
+    "refund_request_compliant": 0.113,
+    "tech_support": 0.065,
+    "tech_support_escalation": 0.0091
+  },
+  "target_wer": 0.15,
+  "passes_target": true
+}

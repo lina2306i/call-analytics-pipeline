@@ -1,0 +1,112 @@
+﻿# ════════════════════════════════════════════════════════════
+#  Call Analytics Pipeline — Master Config
+#  Edit this file to tune every stage. Never hardcode values.
+# ════════════════════════════════════════════════════════════
+
+# ── Paths ────────────────────────────────────────────────────
+paths:
+  raw_audio:    "data/raw"
+  synth_audio:  "data/raw/synth"
+  processed:    "data/processed"
+  reports:      "reports"
+  evaluation:   "evaluation"
+  database:     "reports/calls.db"
+  logs:         "logs/pipeline.log"
+
+# ── Whisper Transcription ────────────────────────────────────
+whisper:
+  model: "base"            # tiny | base | small | medium | large-v3
+  language: "en"           # set null for auto-detect
+  word_timestamps: true
+  task: "transcribe"       # transcribe | translate
+  device: "cpu"            # cpu | cuda
+  # faster-whisper settings (used if use_faster=true)
+  use_faster: false
+  compute_type: "int8"     # int8 | float16 | float32
+
+# ── Speaker Diarization ──────────────────────────────────────
+diarization:
+  enabled: true
+  model: "pyannote/speaker-diarization-3.1"
+  num_speakers: 2          # set null to auto-detect
+  min_speakers: 1
+  max_speakers: 4
+  hf_token: "hf_........"             # paste your HuggingFace token here
+                           # or set env var: HF_TOKEN   Add HuggingFace token to config.yaml (for diarization) # diarization.hf_token: "hf_..." 
+                           # OR: export HF_TOKEN=hf_...
+
+# ── Audio Preprocessing ──────────────────────────────────────
+audio:
+  target_sr: 16000         # Whisper requires 16kHz
+  target_channels: 1       # mono
+  normalize: true
+  denoise: true
+  denoise_strength: 0.85   # 0.0–1.0
+  max_duration_sec: 600    # chunk calls longer than 10 min
+  chunk_overlap_sec: 10    # overlap between chunks
+
+# ── NLP Analysis ─────────────────────────────────────────────
+nlp:
+  spacy_model: "en_core_web_sm"        # en_core_web_sm | en_core_web_trf
+  sentiment_model: "distilbert-base-uncased-finetuned-sst-2-english"
+  intent_model: "typeform/distilbert-base-uncased-mnli"  # zero-shot fallback
+  intent_labels:
+    - "billing dispute"
+    - "refund request"
+    - "technical support"
+    - "account cancellation"
+    - "payment issue"
+    - "product inquiry"
+    - "escalation request"
+    - "complaint"
+    - "general inquiry"
+  intent_threshold: 0.4    # min confidence to assign a label
+
+# ── Compliance Checker ───────────────────────────────────────
+compliance:
+  required_phrases:
+    - "this call may be recorded"
+    - "for quality and training purposes"
+    - "verify your identity"
+    - "how can i help you today"
+  prohibited_phrases:
+    - "guaranteed"
+    - "i promise"
+    - "sue you"
+    - "legal action will be taken"
+    - "we will take you to court"
+    - "pay or else"
+  pii_patterns:
+    credit_card: '\b(?:\d[ -]?){13,16}\b'
+    ssn:         '\b\d{3}-\d{2}-\d{4}\b'
+    phone:       '\b(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b'
+    email:       '[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}'
+
+# ── Report Builder ───────────────────────────────────────────
+reports:
+  formats:
+    - "json"
+    - "csv"
+    - "xlsx"
+  include_transcript: true
+  include_segments: true
+  timezone: "UTC"
+
+# ── Synthetic Data Generation ────────────────────────────────
+synthetic:
+  num_calls: 20
+  tts_lang: "en"
+  tts_slow: false
+  output_dir: "data/raw/synth"
+  scenarios:
+    - "billing_dispute"
+    - "refund_request"
+    - "tech_support"
+    - "cancellation"
+    - "payment_issue"
+
+# ── Logging ──────────────────────────────────────────────────
+logging:
+  level: "INFO"            # DEBUG | INFO | WARNING | ERROR
+  console: true
+  file: true

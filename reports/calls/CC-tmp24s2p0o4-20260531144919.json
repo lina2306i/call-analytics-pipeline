@@ -1,0 +1,91 @@
+{
+  "call_id": "CC-tmp24s2p0o4-20260531144919",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmp24s2p0o4.mp3",
+  "processed_at": "2026-05-31T14:49:42.972281",
+  "duration_sec": 30.048,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent. Thank you for calling. This call may be recorded. How can I help? Customer. I have a double charge on my account from last week. Agent. I can see that. Let me verify your identity first customer. Sure. My name is Sarah and my account ends in 4821. Agent. Thank you. I can confirm the duplicate charge and will process a refund.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent. Thank you for calling. This call may be recorded. How can I help? Customer. I have a double charge on my account from last week. Agent. I can see that. Let me verify your identity first customer. Sure. My name is Sarah and my account ends in 4821. Agent. Thank you. I can confirm the duplicate charge and will process a refund.",
+      "start_sec": 0.0,
+      "end_sec": 29.44,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.958,
+      "intent_label": "refund_request",
+      "intent_score": 0.6783,
+      "entities": [
+        {
+          "text": "last week",
+          "label": "DATE"
+        },
+        {
+          "text": "first",
+          "label": "ORDINAL"
+        },
+        {
+          "text": "Sarah",
+          "label": "PERSON"
+        },
+        {
+          "text": "4821",
+          "label": "DATE"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.958,
+  "primary_intent": "refund_request",
+  "primary_intent_score": 0.6783,
+  "all_entities": [
+    {
+      "text": "last week",
+      "label": "DATE"
+    },
+    {
+      "text": "first",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "Sarah",
+      "label": "PERSON"
+    },
+    {
+      "text": "4821",
+      "label": "DATE"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "SIM-001",
+  "call_date": "2026-05-31",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

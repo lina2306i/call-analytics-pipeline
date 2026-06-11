@@ -1,0 +1,119 @@
+{
+  "call_id": "CC-SYNTH-0005-TECH_SUPPORT-20260530004419",
+  "audio_path": "data\\raw\\synth\\SYNTH-0005-TECH_SUPPORT.mp3",
+  "processed_at": "2026-05-30T00:44:32.474619",
+  "duration_sec": 52.56,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent support line. How can I help? Customer my internet connection keeps dropping every few minutes. It has been happening since yesterday. Agent, I am sorry to hear that. Let me run a remote diagnostic on your router. Can you tell me the model number on the back of your device? Customer it says Model AC 1800. Agent, great. I am sending a reset signal to your device now. Can you unplug the router for 30 seconds and plug it back in? Customer OK. Done. It seems more stable now. Agent the diagnostic shows your connection is stable. If the issue returns within 48 hours, please call back and we will escalate to a technician. Customer sounds good. Thank you.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent support line. How can I help? Customer my internet connection keeps dropping every few minutes. It has been happening since yesterday. Agent, I am sorry to hear that. Let me run a remote diagnostic on your router. Can you tell me the model number on the back of your device? Customer it says Model AC 1800. Agent, great. I am sending a reset signal to your device now. Can you unplug the router for 30 seconds and plug it back in? Customer OK. Done. It seems more stable now. Agent the diagnostic shows your connection is stable. If the issue returns within 48 hours, please call back and we will escalate to a technician. Customer sounds good. Thank you.",
+      "start_sec": 0.0,
+      "end_sec": 52.36,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9883,
+      "intent_label": "unknown",
+      "intent_score": 0.2568,
+      "entities": [
+        {
+          "text": "every few minutes",
+          "label": "TIME"
+        },
+        {
+          "text": "yesterday",
+          "label": "DATE"
+        },
+        {
+          "text": "Model AC 1800",
+          "label": "PERSON"
+        },
+        {
+          "text": "30 seconds",
+          "label": "TIME"
+        },
+        {
+          "text": "48 hours",
+          "label": "TIME"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9883,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "every few minutes",
+      "label": "TIME"
+    },
+    {
+      "text": "yesterday",
+      "label": "DATE"
+    },
+    {
+      "text": "Model AC 1800",
+      "label": "PERSON"
+    },
+    {
+      "text": "30 seconds",
+      "label": "TIME"
+    },
+    {
+      "text": "48 hours",
+      "label": "TIME"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

@@ -1,0 +1,77 @@
+{
+  "call_id": "CC-tmpn2h9z0eb-20260603085503",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmpn2h9z0eb.mp3",
+  "processed_at": "2026-06-03T09:06:19.978357",
+  "duration_sec": 372.715125,
+  "sample_rate": 16000,
+  "num_channels": 2,
+  "full_transcript": "Improve determination.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Improve determination.",
+      "start_sec": 4.52,
+      "end_sec": 5.92,
+      "sentiment_label": "POSITIVE",
+      "sentiment_score": 0.9996,
+      "intent_label": "unknown",
+      "intent_score": 0.2457,
+      "entities": []
+    }
+  ],
+  "overall_sentiment": "POSITIVE",
+  "overall_sentiment_score": 0.9996,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"this call may be recorded\"",
+      "matched_text": "this call may be recorded",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"how can i help you today\"",
+      "matched_text": "how can i help you today",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-06-03",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

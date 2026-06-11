@@ -1,0 +1,127 @@
+{
+  "call_id": "CC-SYNTH-0010-GENERAL_INQUIRY-20260530004522",
+  "audio_path": "data\\raw\\synth\\SYNTH-0010-GENERAL_INQUIRY.mp3",
+  "processed_at": "2026-05-30T00:45:34.909569",
+  "duration_sec": 53.616,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent, thank you for calling. This call may be recorded. How can I help you today? Customer I just wanted to know what plans you currently offer. Agent of course. We have three main plans. The basic plan is $9.99 per month and includes 10 GB of storage. The standard plan is $19.99 and includes 50 GB. The premium plan is $34.99 and gives you unlimited storage. Customer what is the difference between standard and premium besides storage? Agent premium also includes priority support and access to our mobile app. Customer great. I think I will go with standard for now. Agent excellent choice. Shall I sign you up right now? Customer yes please.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent, thank you for calling. This call may be recorded. How can I help you today? Customer I just wanted to know what plans you currently offer. Agent of course. We have three main plans. The basic plan is $9.99 per month and includes 10 GB of storage. The standard plan is $19.99 and includes 50 GB. The premium plan is $34.99 and gives you unlimited storage. Customer what is the difference between standard and premium besides storage? Agent premium also includes priority support and access to our mobile app. Customer great. I think I will go with standard for now. Agent excellent choice. Shall I sign you up right now? Customer yes please.",
+      "start_sec": 0.0,
+      "end_sec": 53.14,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.8681,
+      "intent_label": "unknown",
+      "intent_score": 0.217,
+      "entities": [
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "9.99",
+          "label": "MONEY"
+        },
+        {
+          "text": "10",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "GB",
+          "label": "GPE"
+        },
+        {
+          "text": "19.99",
+          "label": "MONEY"
+        },
+        {
+          "text": "50",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "GB",
+          "label": "GPE"
+        },
+        {
+          "text": "34.99",
+          "label": "MONEY"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.8681,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "9.99",
+      "label": "MONEY"
+    },
+    {
+      "text": "10",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "GB",
+      "label": "GPE"
+    },
+    {
+      "text": "19.99",
+      "label": "MONEY"
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "34.99",
+      "label": "MONEY"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"for quality and training purposes\"",
+      "matched_text": "for quality and training purposes",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    },
+    {
+      "flag_type": "MISSING_DISCLOSURE",
+      "description": "Required phrase not spoken: \"verify your identity\"",
+      "matched_text": "verify your identity",
+      "speaker": "",
+      "role": "agent",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "severity": "high"
+    }
+  ],
+  "compliance_passed": false,
+  "agent_id": "",
+  "call_date": "2026-05-30",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}

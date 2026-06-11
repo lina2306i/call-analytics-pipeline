@@ -1,0 +1,94 @@
+{
+  "call_id": "CC-tmpbovvf3ik-20260531155123",
+  "audio_path": "C:\\Users\\LINAL_~1\\AppData\\Local\\Temp\\tmpbovvf3ik.mp3",
+  "processed_at": "2026-05-31T15:51:59.485603",
+  "duration_sec": 54.408,
+  "sample_rate": 16000,
+  "num_channels": 1,
+  "full_transcript": "Agent. Thank you for calling. This call may be recorded for quality and training purposes. How can I help you today? Customer. My payment keeps failing. I have tried three times already. Agent. I am sorry to hear that. Let me verify your identity first. Can you confirm your full name and account number? Customer. My name is James and my account ends in 7-7-3-2. Agent. Thank you, James. To keep things secure, I will send you a payment link. Customer. I see the email. Using it now. Agent. Great. Your payment should process within a few minutes. Is there anything else I can help you with today? Customer. No, that is all. Thank you very much.",
+  "language_detected": "en",
+  "whisper_model": "whisper-base",
+  "turns": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "unknown",
+      "text": "Agent. Thank you for calling. This call may be recorded for quality and training purposes. How can I help you today? Customer. My payment keeps failing. I have tried three times already. Agent. I am sorry to hear that. Let me verify your identity first. Can you confirm your full name and account number? Customer. My name is James and my account ends in 7-7-3-2. Agent. Thank you, James. To keep things secure, I will send you a payment link. Customer. I see the email. Using it now. Agent. Great. Your payment should process within a few minutes. Is there anything else I can help you with today? Customer. No, that is all. Thank you very much.",
+      "start_sec": 0.0,
+      "end_sec": 53.92,
+      "sentiment_label": "NEGATIVE",
+      "sentiment_score": 0.9874,
+      "intent_label": "unknown",
+      "intent_score": 0.3072,
+      "entities": [
+        {
+          "text": "today",
+          "label": "DATE"
+        },
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "first",
+          "label": "ORDINAL"
+        },
+        {
+          "text": "James",
+          "label": "PERSON"
+        },
+        {
+          "text": "7-7-3-2",
+          "label": "DATE"
+        },
+        {
+          "text": "James",
+          "label": "PERSON"
+        },
+        {
+          "text": "a few minutes",
+          "label": "TIME"
+        },
+        {
+          "text": "today",
+          "label": "DATE"
+        }
+      ]
+    }
+  ],
+  "overall_sentiment": "NEGATIVE",
+  "overall_sentiment_score": 0.9874,
+  "primary_intent": "unknown",
+  "primary_intent_score": 0.0,
+  "all_entities": [
+    {
+      "text": "today",
+      "label": "DATE"
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "first",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "James",
+      "label": "PERSON"
+    },
+    {
+      "text": "7-7-3-2",
+      "label": "DATE"
+    },
+    {
+      "text": "a few minutes",
+      "label": "TIME"
+    }
+  ],
+  "compliance_flags": [],
+  "compliance_passed": true,
+  "agent_id": "SM-001",
+  "call_date": "2026-05-31",
+  "pipeline_version": "1.0.0",
+  "errors": []
+}
